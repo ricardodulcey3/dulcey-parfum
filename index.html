@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dulcey Parfum | Perfumería de lujo, 100% original</title>
+<meta name="description" content="Dulcey Parfum - Perfumería original importada: árabes, diseñador y nicho. Curaduría, autenticidad y entrega rápida.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230d0d0d'/%3E%3Cpath d='M13 4h6v5H13z' fill='%23c9a227'/%3E%3Cpath d='M10 10h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2V12a2 2 0 0 1 2-2z' fill='%23e2c464'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo">Dulcey <span>Parfum</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio" class="nav__link">Inicio</a>
+      <a href="#colecciones" class="nav__link">Colecciones</a>
+      <a href="#catalogo" class="nav__link">Catálogo</a>
+      <a href="#nosotros" class="nav__link">Nosotros</a>
+      <a href="#contacto" class="nav__link">Contacto</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__overlay"></div>
+    <div class="hero__glow"></div>
+    <div class="container hero__content">
+      <p class="hero__kicker" data-animate>100% originales &middot; Edición 2026</p>
+      <h1 class="hero__title" data-animate>El arte de oler <span>inolvidable</span></h1>
+      <p class="hero__subtitle" data-animate>Fragancias importadas y verificadas de las casas más codiciadas del mundo, elegidas para quienes entienden que el aroma también habla.</p>
+      <div class="hero__cta" data-animate>
+        <a href="#catalogo" class="btn btn--gold">Ver catálogo</a>
+        <a href="#nosotros" class="btn btn--ghost">Nuestra historia</a>
+      </div>
+
+      <div class="hero__stats" data-animate>
+        <div class="stat">
+          <span class="stat__number counter" data-count-to="80" data-prefix="+">0</span>
+          <span class="stat__label">Referencias</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number counter" data-count-to="100" data-suffix="%">0</span>
+          <span class="stat__label">Auténticos</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number counter" data-count-to="24" data-suffix="h">0</span>
+          <span class="stat__label">Despacho</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__bottle" aria-hidden="true">
+      <svg viewBox="0 0 120 220" class="bottle-float">
+        <rect x="45" y="0" width="30" height="18" rx="3" fill="#c9a227"/>
+        <rect x="50" y="18" width="20" height="14" fill="#8a6d1a"/>
+        <path d="M35 32 h50 a8 8 0 0 1 8 8 v150 a10 10 0 0 1 -10 10 h-46 a10 10 0 0 1 -10 -10 v-150 a8 8 0 0 1 8 -8 z" fill="url(#gHero)" stroke="#c9a227" stroke-width="2"/>
+        <defs>
+          <linearGradient id="gHero" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#2a2a2a"/>
+            <stop offset="100%" stop-color="#111"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+
+    <a href="#marcas" class="hero__scroll" aria-label="Desplázate hacia abajo">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- MARQUEE DE MARCAS -->
+  <section class="marquee" id="marcas">
+    <div class="marquee__track" id="marqueeTrack">
+      <!-- se duplica con JS para loop infinito -->
+    </div>
+  </section>
+
+  <!-- MANIFIESTO -->
+  <section class="manifesto">
+    <div class="container">
+      <p class="section__kicker" data-animate>Manifiesto</p>
+      <h2 class="section__title" data-animate>Cuatro promesas.</h2>
+
+      <div class="manifesto__grid">
+        <div class="manifesto__card" data-animate>
+          <span class="manifesto__icon">◆</span>
+          <h3>Autenticidad</h3>
+          <p>Cada frasco es verificado y tiene procedencia clara, sin excepciones.</p>
+        </div>
+        <div class="manifesto__card" data-animate>
+          <span class="manifesto__icon">✦</span>
+          <h3>Curaduría</h3>
+          <p>Solo seleccionamos casas que estén a la altura de tu identidad.</p>
+        </div>
+        <div class="manifesto__card" data-animate>
+          <span class="manifesto__icon">⏱</span>
+          <h3>Entrega rápida</h3>
+          <p>Despachos en 24h y envío gratis en compras superiores a $300.000.</p>
+        </div>
+        <div class="manifesto__card" data-animate>
+          <span class="manifesto__icon">✉</span>
+          <h3>Asesoría 24/7</h3>
+          <p>Te ayudamos a encontrar tu fragancia ideal por WhatsApp, a cualquier hora.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLECCIONES -->
+  <section class="categories" id="colecciones">
+    <div class="container">
+      <p class="section__kicker" data-animate>Sección 01</p>
+      <h2 class="section__title" data-animate>Tres lenguajes, un mismo carácter.</h2>
+      <p class="section__subtitle" data-animate>Cada colección guarda una personalidad distinta. Elige el idioma que quieres hablar con tu aroma.</p>
+
+      <div class="categories__grid">
+        <article class="category-card category-card--arabe" data-animate data-filter-target="oriental">
+          <div class="category-card__inner">
+            <span class="category-card__eyebrow">Dulcey Parfum</span>
+            <h3>Árabes</h3>
+            <p>La opulencia de Oriente, embotellada para coleccionistas.</p>
+            <span class="category-card__cta">Descubrir →</span>
+          </div>
+        </article>
+        <article class="category-card category-card--disenador" data-animate data-filter-target="amaderado">
+          <div class="category-card__inner">
+            <span class="category-card__eyebrow">Dulcey Parfum</span>
+            <h3>Diseñador</h3>
+            <p>Las casas más codiciadas del mundo, en su versión más pura.</p>
+            <span class="category-card__cta">Descubrir →</span>
+          </div>
+        </article>
+        <article class="category-card category-card--nicho" data-animate data-filter-target="floral">
+          <div class="category-card__inner">
+            <span class="category-card__eyebrow">Dulcey Parfum</span>
+            <h3>Nicho</h3>
+            <p>Creaciones raras para quienes buscan lo irrepetible.</p>
+            <span class="category-card__cta">Descubrir →</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATALOGO -->
+  <section class="catalog" id="catalogo">
+    <div class="container">
+      <p class="section__kicker" data-animate>Sección 02</p>
+      <h2 class="section__title" data-animate>Recién llegados</h2>
+      <p class="section__subtitle" data-animate>Piezas elegidas con criterio para quienes aprecian lo extraordinario.</p>
+
+      <div class="filters" id="filters" data-animate>
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="floral">Floral</button>
+        <button class="filter-btn" data-filter="amaderado">Amaderado</button>
+        <button class="filter-btn" data-filter="citrico">Cítrico</button>
+        <button class="filter-btn" data-filter="oriental">Oriental</button>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- Las tarjetas de producto se generan con JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="about" id="nosotros">
+    <div class="container about__inner">
+      <div class="about__text" data-animate>
+        <p class="section__kicker">Nuestra historia</p>
+        <h2 class="section__title">Pasión por el arte de la perfumería</h2>
+        <p>En Dulcey Parfum seleccionamos esencias de los mejores proveedores del mundo para crear un catálogo único, duradero y memorable. Cada frasco es una invitación a expresar tu personalidad sin decir una palabra.</p>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__number counter" data-count-to="80" data-prefix="+">0</span>
+            <span class="stat__label">Fragancias</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number counter" data-count-to="2000" data-suffix="+" data-format="k">0</span>
+            <span class="stat__label">Clientes felices</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number counter" data-count-to="100" data-suffix="%">0</span>
+            <span class="stat__label">Originales</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__visual" data-animate>
+        <div class="bottle-showcase">
+          <svg viewBox="0 0 120 220" class="bottle-lg" aria-hidden="true">
+            <rect x="45" y="0" width="30" height="18" rx="3" fill="#c9a227"/>
+            <rect x="50" y="18" width="20" height="14" fill="#8a6d1a"/>
+            <path d="M35 32 h50 a8 8 0 0 1 8 8 v150 a10 10 0 0 1 -10 10 h-46 a10 10 0 0 1 -10 -10 v-150 a8 8 0 0 1 8 -8 z" fill="url(#g1)" stroke="#c9a227" stroke-width="2"/>
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#2a2a2a"/>
+                <stop offset="100%" stop-color="#111"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILOSOFIA -->
+  <section class="philosophy">
+    <div class="container">
+      <p class="section__kicker" data-animate>Filosofía</p>
+      <blockquote class="philosophy__quote" data-animate>
+        “Tu fragancia es la primera impresión que permanece: no es un accesorio, es un lenguaje.”
+      </blockquote>
+      <p class="philosophy__author" data-animate>— Equipo Dulcey Parfum</p>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="container contact__inner">
+      <p class="section__kicker" data-animate>Concierge olfativo</p>
+      <h2 class="section__title" data-animate>¿No sabes cuál elegir? Te asesoramos.</h2>
+      <p class="contact__text" data-animate>Cuéntanos qué buscas y te recomendamos tu próxima fragancia, sin costo y sin compromiso.</p>
+      <a href="https://wa.me/00000000000?text=Hola%2C%20quiero%20más%20información%20sobre%20sus%20perfumes" target="_blank" rel="noopener" class="btn btn--whatsapp" data-animate>
+        <svg viewBox="0 0 32 32" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.5.7 4.8 1.9 6.8L3 29l6.7-2.1c1.9 1 4.1 1.6 6.3 1.6 7 0 12.7-5.7 12.7-12.7C28.7 8.7 23 3 16 3zm0 23.1c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 1.3 1.3-3.9-.3-.4c-1.1-1.7-1.7-3.7-1.7-5.7 0-5.9 4.8-10.7 10.7-10.7 5.9 0 10.7 4.8 10.7 10.7-.1 6-4.9 10.4-10.8 10.4zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C13.5 12 13 10.7 12.7 10c-.2-.6-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
+        Hablar por WhatsApp
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="#inicio" class="logo logo--footer">Dulcey <span>Parfum</span></a>
+      <p class="footer__desc">Perfumería original para quienes entienden que el aroma es la firma invisible de la presencia.</p>
+      <div class="footer__socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="TikTok">TT</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Catálogo</h4>
+      <a href="#colecciones">Árabes</a>
+      <a href="#colecciones">Diseñador</a>
+      <a href="#colecciones">Nicho</a>
+      <a href="#catalogo">Todos los productos</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Servicio</h4>
+      <a href="#contacto">Política de envíos</a>
+      <a href="#contacto">Devoluciones</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+
+    <div class="footer__col footer__newsletter">
+      <h4>Lista privada</h4>
+      <p>Lanzamientos antes que nadie y -10% en tu primera compra.</p>
+      <form id="newsletterForm" class="newsletter__form" novalidate>
+        <input type="email" id="newsletterEmail" placeholder="Tu correo" required aria-label="Correo electrónico">
+        <button type="submit">Unirme →</button>
+      </form>
+      <p class="newsletter__msg" id="newsletterMsg" role="status"></p>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p class="footer__copy">© 2026 Dulcey Parfum. Todos los derechos reservados.</p>
+    <div class="footer__payments">
+      <span>VISA</span><span>MASTER</span><span>NEQUI</span><span>PSE</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/00000000000" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.5.7 4.8 1.9 6.8L3 29l6.7-2.1c1.9 1 4.1 1.6 6.3 1.6 7 0 12.7-5.7 12.7-12.7C28.7 8.7 23 3 16 3zm0 23.1c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 1.3 1.3-3.9-.3-.4c-1.1-1.7-1.7-3.7-1.7-5.7 0-5.9 4.8-10.7 10.7-10.7 5.9 0 10.7 4.8 10.7 10.7-.1 6-4.9 10.4-10.8 10.4zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C13.5 12 13 10.7 12.7 10c-.2-.6-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
